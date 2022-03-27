@@ -95,6 +95,7 @@ class TwoEndConnector(Connector):
   """Synaptic connector to build synapse connections between two neuron groups."""
 
   def __init__(self, ):
+    """Initialize a built-in connector."""
     self.pre_size = None
     self.post_size = None
     self.pre_num = None
